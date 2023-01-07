@@ -5,9 +5,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
 /* global style */
-
 .container {
     width: 70%;
     margin: 0 auto;
@@ -26,6 +24,16 @@
     cursor: pointer;
 }
 
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
 /* header */
 header {
     width: 100vw;
@@ -39,7 +47,7 @@ header .banner-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 0;
+    padding: 10% 0;
 }
 
 .banner-content .item {
@@ -54,11 +62,7 @@ header .banner-content {
 }
 
 .item-right h1{
-    font-size: 65px;
-}
-
-.item-right p{
-    font-size: 16px;
+    font-size: 60px;
 }
 
 .item-right .button-div {
@@ -90,15 +94,8 @@ header .banner-content {
     padding-left: 200px;
 }
 
-.fail-item h2{
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
 .fail-item p {
-    font-size: 16px;
     color: #737272;
-    margin-bottom: 20px;
 }
 
 .fail-item i {
@@ -109,9 +106,7 @@ header .banner-content {
 
 /* plan section */
 .plan-section h2 {
-    font-size: 40px;
     text-align: center;
-    margin-bottom: 50px;
 }
 .plan-section > div{
     display: flex;
@@ -146,6 +141,60 @@ header .banner-content {
     box-shadow: 5px 5px 15px #dfdcdc;
 }
 
+/* my-skill section note: bonus section */
+.skills-section h2{
+    text-align: center;
+}
+
+.skill-group {
+    margin-top: 30px;
+}
+
+.skill-group label {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.skill-group label img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.skill-group .skill-range {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skill-range .skill {
+    padding: 15px 20px 15px 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.c-programing {
+    width: 73%;
+    background-color: #0e8cba;
+}
+
+.linux {
+    width: 60%;
+    background-color: rgba(245, 172, 27, 0.982);
+}
+
+.photoshop {
+    width: 76%;
+    background-color: rgb(26, 34, 58);
+}
+
+.microsoft-office {
+    width: 92%;
+    background-color: #de570e;
+}
+
 /* gradient-section */
 .gradient-section {
     background-image: linear-gradient(to right, rgb(0, 95, 172, 0.9), rgb(0, 95, 172, 0.1)), url('../images/watch.png');
@@ -160,8 +209,6 @@ header .banner-content {
 }
 
 .gradient-content h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
     color: #FFFFFF;
 } 
 
@@ -180,19 +227,12 @@ footer {
     gap: 100px;
 }
 
-.footer-item h2{
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
 .footer-item h3{
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 .footer-item p{
-    font-size: 16px;
-    margin-bottom: 20px;
     color: #a2a0a0;
 }
 
@@ -221,5 +261,4 @@ footer {
     background-color: #005FAC;
     color: #FFFFFF;
 }
-
 /* end */
